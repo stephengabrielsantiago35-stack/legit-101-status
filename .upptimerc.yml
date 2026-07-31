@@ -13,24 +13,14 @@ sites:
     url: https://legit101dxb.com/track
   - name: Account
     url: https://legit101dxb.com/account
-  - name: Supabase API
-    url: https://yxgfluxxomzoenjbjypu.supabase.co/rest/v1/
-  - name: Stripe Payments
-    url: https://yxgfluxxomzoenjbjypu.supabase.co/functions/v1/stripe-create-checkout
-  - name: Supabase Auth
-    url: https://yxgfluxxomzoenjbjypu.supabase.co/auth/v1/health
-  - name: Tabby Payments
-    url: https://yxgfluxxomzoenjbjypu.supabase.co/functions/v1/tabby-check-eligibility
-  - name: Tamara Payments
-    url: https://yxgfluxxomzoenjbjypu.supabase.co/functions/v1/tamara-create-checkout
-  - name: Order Emails
-    url: https://yxgfluxxomzoenjbjypu.supabase.co/functions/v1/send-order-email
-  - name: Verification Email
-    url: https://yxgfluxxomzoenjbjypu.supabase.co/functions/v1/send-verification-email
-  - name: Tabby Capture
-    url: https://yxgfluxxomzoenjbjypu.supabase.co/functions/v1/tabby-capture
-  - name: Tamara Webhook
-    url: https://yxgfluxxomzoenjbjypu.supabase.co/functions/v1/tamara-webhook
+  - name: Supabase
+    url: https://yxgfluxxomzoenjbjypu.supabase.co/functions/v1/health-public
+  - name: Stripe
+    url: https://yxgfluxxomzoenjbjypu.supabase.co/functions/v1/health-public
+  - name: Tabby
+    url: https://yxgfluxxomzoenjbjypu.supabase.co/functions/v1/health-public
+  - name: Tamara
+    url: https://yxgfluxxomzoenjbjypu.supabase.co/functions/v1/health-public
 status-website:
   baseUrl: /legit-101-status
   name: Legit 101 DXB
