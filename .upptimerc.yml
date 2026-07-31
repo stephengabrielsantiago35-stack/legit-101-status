@@ -1,41 +1,53 @@
-owner: stephengabrielsantigo35-stack
+owner: stephengabrielsantiago35-stack
 repo: legit-101-status
 uptime:
-  - name: Legit 101 DXB - Website
+  - id: website
+    name: Legit 101 DXB - Website
     url: https://legit101dxb.com
     method: GET
-    expectedStatus: 200
-  - name: Shop Page
+    expectedStatusCodes:
+      - 200
+  - id: shop
+    name: Shop Page
     url: https://legit101dxb.com/shop.html
     method: GET
-    expectedStatus: 200
-  - name: Checkout Page
+    expectedStatusCodes:
+      - 200
+  - id: checkout
+    name: Checkout Page
     url: https://legit101dxb.com/checkout.html
     method: GET
-    expectedStatus: 200
-  - name: Auth Page
+    expectedStatusCodes:
+      - 200
+  - id: auth
+    name: Auth Page
     url: https://legit101dxb.com/auth.html
     method: GET
-    expectedStatus: 200
-  - name: Supabase API
+    expectedStatusCodes:
+      - 200
+  - id: supabase-api
+    name: Supabase API
     url: https://yxgfluxxomzoenjbjypu.supabase.co/rest/v1/site_settings?select=key&limit=1
     method: GET
     headers:
       apikey: eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJzdXBhYmFzZSIsInJlZiI6Inl4Z2ZsdXh4b216b2VuamJqeXB1Iiwicm9sZSI6ImFub24iLCJpYXQiOjE3ODI4NDMxODIsImV4cCI6MjA5ODQxOTE4Mn0.Xi_VqyBWKZievTY0wtv4w6Nz1NTY8Fv1rJRGWn2cZdc
-  - name: Stripe Payments
+    expectedStatusCodes:
+      - 200
+  - id: stripe
+    name: Stripe Payments
     url: https://legit101dxb.com/checkout.html
     method: GET
-    expectedStatus: 200
-  - name: Supabase Auth
+    expectedStatusCodes:
+      - 200
+  - id: supabase-auth
+    name: Supabase Auth
     url: https://yxgfluxxomzoenjbjypu.supabase.co/auth/v1/health
     method: GET
-  - name: Supabase Edge Functions
+    expectedStatusCodes:
+      - 200
+  - id: edge-functions
+    name: Supabase Edge Functions
     url: https://yxgfluxxomzoenjbjypu.supabase.co/functions/v1/stripe-create-checkout
     method: OPTIONS
-    expectedStatus: 200
-
-statusPageName: Legit 101 DXB
-statusPageTheme: dark
-notifications:
-  - type: email
-    to: stephengabrielsantiago35@gmail.com
+    expectedStatusCodes:
+      - 200
