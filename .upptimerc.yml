@@ -28,7 +28,7 @@ status-website:
   introMessage: Real-time uptime monitoring for all Legit 101 DXB services.
   navbar:
     - title: Status
-      href: /
+      href: /legit-101-status/
     - title: Website
       href: https://legit101dxb.com
     - title: GitHub
