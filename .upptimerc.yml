@@ -1,31 +1,41 @@
-# Change these first
-owner: upptime # Your GitHub organization or username, where this repository lives
-repo: upptime # The name of this repository
+owner: stephengabrielsantigo35-stack
+repo: legit-101-status
+uptime:
+  - name: Legit 101 DXB - Website
+    url: https://legit101dxb.com
+    method: GET
+    expectedStatus: 200
+  - name: Shop Page
+    url: https://legit101dxb.com/shop.html
+    method: GET
+    expectedStatus: 200
+  - name: Checkout Page
+    url: https://legit101dxb.com/checkout.html
+    method: GET
+    expectedStatus: 200
+  - name: Auth Page
+    url: https://legit101dxb.com/auth.html
+    method: GET
+    expectedStatus: 200
+  - name: Supabase API
+    url: https://yxgfluxxomzoenjbjypu.supabase.co/rest/v1/site_settings?select=key&limit=1
+    method: GET
+    headers:
+      apikey: eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJzdXBhYmFzZSIsInJlZiI6Inl4Z2ZsdXh4b216b2VuamJqeXB1Iiwicm9sZSI6ImFub24iLCJpYXQiOjE3ODI4NDMxODIsImV4cCI6MjA5ODQxOTE4Mn0.Xi_VqyBWKZievTY0wtv4w6Nz1NTY8Fv1rJRGWn2cZdc
+  - name: Stripe Payments
+    url: https://legit101dxb.com/checkout.html
+    method: GET
+    expectedStatus: 200
+  - name: Supabase Auth
+    url: https://yxgfluxxomzoenjbjypu.supabase.co/auth/v1/health
+    method: GET
+  - name: Supabase Edge Functions
+    url: https://yxgfluxxomzoenjbjypu.supabase.co/functions/v1/stripe-create-checkout
+    method: OPTIONS
+    expectedStatus: 200
 
-sites:
-  - name: Google
-    url: https://www.google.com
-  - name: Wikipedia
-    url: https://en.wikipedia.org
-  - name: Hacker News
-    url: https://news.ycombinator.com
-  - name: Secret Site
-    url: $SECRET_SITE
-
-status-website:
-  # Add your custom domain name, or remove the `cname` line if you don't have a domain
-  # Uncomment the `baseUrl` line if you don't have a custom domain and add your repo name there
-  cname: demo.upptime.js.org
-  # baseUrl: /your-repo-name
-  logoUrl: https://raw.githubusercontent.com/upptime/upptime.js.org/master/static/img/icon.svg
-  name: Upptime
-  introTitle: "**Upptime** is the open-source uptime monitor and status page, powered entirely by GitHub."
-  introMessage: This is a sample status page which uses **real-time** data from our [GitHub repository](https://github.com/upptime/upptime). No server required — just GitHub Actions, Issues, and Pages. [**Get your own for free**](https://github.com/upptime/upptime)
-  navbar:
-    - title: Status
-      href: /
-    - title: GitHub
-      href: https://github.com/$OWNER/$REPO
-
-# Upptime also supports notifications, assigning issues, and more
-# See https://upptime.js.org/docs/configuration
+statusPageName: Legit 101 DXB
+statusPageTheme: dark
+notifications:
+  - type: email
+    to: stephengabrielsantiago35@gmail.com
