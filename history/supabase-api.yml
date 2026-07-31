@@ -1,7 +1,7 @@
 url: https://yxgfluxxomzoenjbjypu.supabase.co/rest/v1/site_settings?select=key&limit=1
 status: down
 code: 401
-responseTime: 113
-lastUpdated: 2026-07-31T08:41:37.507Z
+responseTime: 36
+lastUpdated: 2026-07-31T08:45:53.760Z
 startTime: 2026-07-31T08:22:42.772Z
 generator: Upptime <https://github.com/upptime/upptime>
