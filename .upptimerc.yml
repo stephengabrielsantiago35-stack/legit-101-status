@@ -22,13 +22,13 @@ sites:
   - name: Tamara
     url: https://yxgfluxxomzoenjbjypu.supabase.co/functions/v1/health-public
 status-website:
-  baseUrl: /legit-101-status
+  baseUrl: /
   name: Legit 101 DXB
   introTitle: "**Legit 101 DXB** - System Status"
   introMessage: Real-time uptime monitoring for all Legit 101 DXB services.
   navbar:
     - title: Status
-      href: /legit-101-status/
+      href: /
     - title: Website
       href: https://legit101dxb.com
   theme: dark
