@@ -23,6 +23,7 @@ sites:
     url: https://yxgfluxxomzoenjbjypu.supabase.co/functions/v1/health-public
 status-website:
   baseUrl: /
+  cname: status.legit101dxb.com
   name: Legit 101 DXB
   introTitle: "**Legit 101 DXB** - System Status"
   introMessage: Real-time uptime monitoring for all Legit 101 DXB services.
