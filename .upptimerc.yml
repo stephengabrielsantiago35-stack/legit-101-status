@@ -22,7 +22,7 @@ sites:
   - name: Tamara
     url: https://yxgfluxxomzoenjbjypu.supabase.co/functions/v1/health-public
 status-website:
-  baseUrl: /
+  baseUrl:
   cname: status.legit101dxb.com
   name: Legit 101 DXB
   introTitle: "**Legit 101 DXB** - System Status"
